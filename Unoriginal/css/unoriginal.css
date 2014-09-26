@@ -1,0 +1,32 @@
+#lyric {
+    overflow: hidden;
+}
+    #lyric .lyric-prev, #lyric .lyric-next {
+        float: left;
+        margin: 5px;
+    }
+    
+    #lyric .lyric {
+        float: left;
+        margin: 0;
+    }
+    
+        #lyric .lyric br:first-of-type {
+            display: none;
+        }
+        
+/* Widget Styling */
+
+    #lyric.widget .lyric-prev, #lyric.widget .lyric-next {
+        float: left;
+        margin: 0.5%;
+        width: 7.5%;
+    }
+
+    #lyric.widget .lyric {
+        float: left;
+        margin: 0;
+        width: 83%;
+    }
+
+           
